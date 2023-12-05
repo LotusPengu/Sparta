@@ -1,0 +1,27 @@
+The four pillars of OOP:
+To help promote better code - reusable, extendable, logical structure,
+better readability, well organised
+
+Abstraction
+- hiding implementation details away from the user
+
+Inheritance
+- promotes code reuse by passing down attributes and methods from super classes
+to subclasses
+- utilises an IS-A relationship, anything that applies to the super class should
+apply to the subclass
+- when defining characteristics, should ensure that everything in the super class also
+relates to the subclasses
+
+Encapsulation
+- built on the idea of data hiding
+- protect access to data within a class
+- data can only be accessed through getter and setter methods (@property methods)
+
+Polymorphism
+- poly = many, morph = forms
+- a method taking on many forms/functionality acting in two or more different ways
+- i.e., the same function being specified in a different part of the hierarchy
+
+
+python -> snake -> reptile -> animal = class hierarchy
